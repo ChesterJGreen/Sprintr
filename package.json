@@ -1,0 +1,16 @@
+
+  {
+    "name": "sprintr",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd Sprintr.client && npm i",
+      "setup:server": "cd Sprintr && npm i",
+      "start": "node Sprintr/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
